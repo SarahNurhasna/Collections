@@ -18,6 +18,7 @@ public class AnimalTest {
         
         displayElements(animal);
         getValue("Bee", animal);
+        getValue("Cat", animal);
     }
     
     public static void addElements(String key, String value, HashMap<String, String> animal){
