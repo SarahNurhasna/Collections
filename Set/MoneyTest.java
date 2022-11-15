@@ -33,7 +33,8 @@ public class MoneyTest {
         findMoney(bagOfMoney, money6);
         
         bagOfMoney.clear();
-        displayWalletContents(bagOfMoney);
+        if(bagOfMoney.isEmpty())
+            System.out.println("You don't have any money left");
     }//end of main method 
     
     static void findMoney(HashSet<Money> bagOfMoney, Money money){
